@@ -1,7 +1,16 @@
-package aula07;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package aula07poo;
 
+/**
+ *
+ * @author userbla
+ */
 public class Editora {
-	private int idEditora;
+    private int idEditora;
     private String razaoSocial;
     private String contato;
     private String cidade;

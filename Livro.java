@@ -1,4 +1,14 @@
-package aula07;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package aula07poo;
+
+/**
+ *
+ * @author userbla
+ */
 
 public class Livro {
 	private int idLivro;
@@ -6,6 +16,14 @@ public class Livro {
 	private String ISBN;
 	private int numeroPaginas;
 	private Editora editora;
+
+    public Editora getEditora() {
+        return editora;
+    }
+
+    public Genero getGenero() {
+        return genero;
+    }
 	private Genero genero;
 	public Livro(int idLivro, String titulo, String iSBN, int numeroPaginas, Editora editora, Genero genero) {
 		super();
@@ -16,7 +34,6 @@ public class Livro {
 		this.editora = editora;
 		this.genero = genero;
 	}
-	
 	public int getIdLivro() {
 		return idLivro;
 	}
