@@ -27,10 +27,10 @@ public class Aula07Poo {
 		generos[2] = new Genero(03,"Fic�ao");
 		
 		livros[0] = new Livro(01, "A volta dos que nao foram","LPS",100,editoras[0],generos[2]);
-		livros[1] = new Livro(01, "Como eu era antes de vc","RPS",300,editoras[0],generos[0]);
-		livros[2] = new Livro(01, "Cantos de uma sala redonda","JPS",100,editoras[1],generos[2]);
-		livros[3] = new Livro(01, "Minhoco e minhoca ","SPS",100,editoras[1],generos[0]);
-		livros[4] = new Livro(01, "Minha triste vida academica","LPS",100,editoras[0],generos[1]);
+		livros[1] = new Livro(02, "Como eu era antes de vc","RPS",300,editoras[0],generos[0]);
+		livros[2] = new Livro(03, "Cantos de uma sala redonda","JPS",100,editoras[1],generos[2]);
+		livros[3] = new Livro(04, "Minhoco e minhoca ","SPS",100,editoras[1],generos[0]);
+		livros[4] = new Livro(05, "Minha triste vida academica","LPS",100,editoras[0],generos[1]);
 		for(int i = 0;i < livros.length; i++){
 		System.out.printf("\nO titulo do livro é: %s\nO genêro é: %s\nA razão social da editora é:%s\nA cidade da editora é:%s \n",livros[i].getTitulo(),
                                                                                                                                               livros[i].getGenero().getNomeGenero(),
